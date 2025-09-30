@@ -1,13 +1,13 @@
 # Used Car Price Prediction Analysis
 A machine learning project that predicts used car prices from historical sales records using key automotive features and uncover what consumers value in used cars.
 
-**📓 Assignment Notebook**: [prompt_II.ipynb](./prompt_II.ipynb)
+**Assignment Notebook**: [prompt_II.ipynb](./prompt_II.ipynb)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project analyzes **426,000+ used car records** to identify the key factors that drive vehicle pricing, providing actionable insights for used car dealerships to optimize their inventory and pricing strategies.
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 - **Source**: Kaggle Used Cars Dataset
 - **Records Analyzed**: 426,000+ vehicles (cleaned to 106,602 for modeling)
@@ -15,23 +15,23 @@ This project analyzes **426,000+ used car records** to identify the key factors 
 - **Target Variable**: Car Price ($500 - $150,000 range)
 - **Analysis Period**: Multi-year dataset covering various makes and models
 
-## 🔍 Key Research Question
+## Key Research Question
 
 **"What drives the price of a car?"**
 
 Our analysis provides data-driven answers to help used car dealerships make more profitable inventory and pricing decisions.
 
-## 🏆 Major Findings
+## Major Findings
 
 ### Primary Price Drivers (Explaining 42.7% of Price Variation)
 
-#### 1. 📅 **Vehicle Age (Year) - PRIMARY DRIVER**
+#### 1. **Vehicle Age (Year) - PRIMARY DRIVER**
 - **Impact**: Each year newer increases value by ~**$3,000-4,000**
 - **Total Range Impact**: ~$60,000+ across model years in dataset
 - **Business Insight**: Age is the strongest predictor of car value
 - **Recommendation**: Prioritize vehicles 3-5 years old for optimal inventory
 
-#### 2. 🚗 **Vehicle Mileage (Odometer) - SECONDARY DRIVER**
+#### 2. **Vehicle Mileage (Odometer) - SECONDARY DRIVER**
 - **Impact**: Each mile decreases value by ~**$0.10-0.20**
 - **Per 10,000 Miles**: ~$1,000-2,000 value decrease
 - **Total Range Impact**: ~$30,000+ across mileage spectrum
@@ -45,27 +45,27 @@ Our analysis provides data-driven answers to help used car dealerships make more
 - **Business Accuracy**: ~60% of predictions within $2,000 of actual price
 - **Model Type**: Linear Regression (interpretable and reliable)
 
-## 📈 Business Impact & Recommendations
+## Business Impact & Recommendations
 
-### 🎯 Inventory Strategy
+### Inventory Strategy
 1. **Focus on newer vehicles** (2018+ for maximum value)
 2. **Prioritize low-mileage cars** (under 60,000 miles ideal)
 3. **Avoid high-mileage vehicles** unless exceptional deals
 4. **Sweet spot**: 3-5 year old cars with below-average mileage
 
-### 💰 Pricing Strategy
+### Pricing Strategy
 1. **Use Age + Mileage as baseline** for initial pricing
 2. **Apply $3,000-4,000 premium** per year newer
 3. **Deduct $1,000-2,000** per 10,000 additional miles
 4. **Adjust for brand, condition, and market factors**
 
-### 🏆 Competitive Advantages
+### Competitive Advantages
 - **Data-driven pricing** replaces guesswork
 - **Quantified value drivers** for customer education
 - **Faster inventory turnover** through accurate pricing
 - **Improved profit margins** via strategic acquisition
 
-## 🛠️ Technical Approach
+## Technical Approach
 
 ### Data Preprocessing
 - Removed irrelevant columns (ID, VIN, region)
@@ -84,7 +84,7 @@ Our analysis provides data-driven answers to help used car dealerships make more
 - Cross-validation for model reliability
 - Business-focused metrics (MAPE, prediction intervals)
 
-## 📊 Sample Predictions
+## Sample Predictions
 
 | Car Year | Mileage | Predicted Price | Description |
 |----------|---------|----------------|-------------|
@@ -94,7 +94,7 @@ Our analysis provides data-driven answers to help used car dealerships make more
 | 2012 | 120,000 | $9,800 | Higher Mileage |
 | 2010 | 150,000 | $6,500 | Older Vehicle |
 
-## 🎯 Key Insights Summary
+## Key Insights Summary
 
 ### What REALLY Drives Car Prices:
 
@@ -108,7 +108,7 @@ Our analysis provides data-driven answers to help used car dealerships make more
 PROFITABLE INVENTORY = NEWER CARS + LOWER MILEAGE + DATA-DRIVEN PRICING
 ```
 
-## 🚀 Implementation
+## Implementation
 
 ### Immediate Actions
 1. **Apply age/mileage-based pricing** to current inventory
@@ -122,7 +122,7 @@ PROFITABLE INVENTORY = NEWER CARS + LOWER MILEAGE + DATA-DRIVEN PRICING
 - Incorporate local market factors
 - Update model quarterly with new sales data
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── prompt_II.ipynb          # Main analysis notebook
@@ -134,7 +134,7 @@ PROFITABLE INVENTORY = NEWER CARS + LOWER MILEAGE + DATA-DRIVEN PRICING
     └── kurt.jpeg          # Project image
 ```
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Pandas & NumPy** - Data manipulation
@@ -142,7 +142,7 @@ PROFITABLE INVENTORY = NEWER CARS + LOWER MILEAGE + DATA-DRIVEN PRICING
 - **Matplotlib & Seaborn** - Data visualization
 - **Jupyter Notebook** - Analysis environment
 
-## 📝 Model Limitations
+## Model Limitations
 
 - Only uses 2 numerical features (42.7% explanation)
 - Missing brand/model premium effects
@@ -150,7 +150,7 @@ PROFITABLE INVENTORY = NEWER CARS + LOWER MILEAGE + DATA-DRIVEN PRICING
 - Market timing and economic factors excluded
 - Requires periodic updates with new data
 
-## 🎉 Conclusion
+## Conclusion
 
 This analysis proves that **vehicle age and mileage are the fundamental drivers of used car pricing**. While many factors influence car values, these two metrics provide a reliable foundation for pricing decisions.
 
