@@ -26,15 +26,12 @@ Our analysis provides data-driven answers to help used car dealerships make more
 ### Primary Price Drivers (Explaining 42.7% of Price Variation)
 
 #### 1. **Vehicle Age (Year) - PRIMARY DRIVER**
-- **Impact**: Each year newer increases value by ~**$3,000-4,000**
-- **Total Range Impact**: ~$60,000+ across model years in dataset
-- **Business Insight**: Age is the strongest predictor of car value
+- **Impact**: Each year newer increases value by ~**$818**
+- **Business Insight**: Age is a strong predictor of car value
 - **Recommendation**: Prioritize vehicles 3-5 years old for optimal inventory
 
 #### 2. **Vehicle Mileage (Odometer) - SECONDARY DRIVER**
-- **Impact**: Each mile decreases value by ~**$0.10-0.20**
-- **Per 10,000 Miles**: ~$1,000-2,000 value decrease
-- **Total Range Impact**: ~$30,000+ across mileage spectrum
+- **Impact**: Each 10,000 miles decreases value by ~**$751**
 - **Business Insight**: Lower mileage significantly increases value
 - **Recommendation**: Target vehicles under 15,000 miles per year of age
 
@@ -42,7 +39,7 @@ Our analysis provides data-driven answers to help used car dealerships make more
 
 - **R² Score**: 0.427 (explains 42.7% of price variation)
 - **RMSE**: $10,071 average prediction error
-- **Business Accuracy**: ~60% of predictions within $2,000 of actual price
+- **Business Accuracy**: ~16% of predictions within $2,000 of actual price
 - **Model Type**: Linear Regression (interpretable and reliable)
 
 ## Business Impact & Recommendations
@@ -55,8 +52,8 @@ Our analysis provides data-driven answers to help used car dealerships make more
 
 ### Pricing Strategy
 1. **Use Age + Mileage as baseline** for initial pricing
-2. **Apply $3,000-4,000 premium** per year newer
-3. **Deduct $1,000-2,000** per 10,000 additional miles
+2. **Apply ~$818 premium** per year newer
+3. **Deduct ~$751** per 10,000 additional miles
 4. **Adjust for brand, condition, and market factors**
 
 ### Competitive Advantages
@@ -88,11 +85,11 @@ Our analysis provides data-driven answers to help used car dealerships make more
 
 | Car Year | Mileage | Predicted Price | Description |
 |----------|---------|----------------|-------------|
-| 2020 | 30,000 | $28,500 | Nearly New |
-| 2018 | 45,000 | $22,800 | Low Mileage |
-| 2015 | 80,000 | $15,200 | Average Condition |
-| 2012 | 120,000 | $9,800 | Higher Mileage |
-| 2010 | 150,000 | $6,500 | Older Vehicle |
+| 2020 | 30,000 | $29,677 | Nearly New |
+| 2018 | 45,000 | $26,913 | Low Mileage |
+| 2015 | 80,000 | $21,830 | Average Condition |
+| 2012 | 120,000 | $16,371 | Higher Mileage |
+| 2010 | 150,000 | $12,481 | Older Vehicle |
 
 ## Key Insights Summary
 
