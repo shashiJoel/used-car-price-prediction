@@ -1,7 +1,7 @@
 # Used Car Price Prediction Analysis
 A machine learning project that predicts used car prices from historical sales records using key automotive features and uncover what consumers value in used cars.
 
-Assignment notebook: jupiter notebook
+**📓 Assignment Notebook**: [prompt_II.ipynb](./prompt_II.ipynb)
 
 ## 🎯 Project Overview
 
